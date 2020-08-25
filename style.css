@@ -1,0 +1,182 @@
+/*
+    Colors :
+    Red : #9d0b0b
+    Light Red : #da2d2d
+    Orange : #eb8242
+    Yellow : #f6da63
+*/
+body {
+    background-image: url('restaurant.jpg');
+    background-size: cover;
+    margin: 0;
+    background-blend-mode: lighten;
+    font-family: "Comic Sans Ms";
+    background-attachment: fixed;
+}
+header {
+    height: 300px;
+    width: 1334px;
+}
+header ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+header ul li {
+    display: inline;
+    background-color: #da2d2d;
+    border-radius: 50px;
+    border: 2px solid #9d0b0b;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 30px;
+}
+header ul li a {
+    font-size: 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.container {
+    background-color:#eb8242 ;
+    width: 1050px;
+    height: 400px;
+    margin: -135px 150px;
+    opacity: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 0 60px;
+    overflow: hidden;
+}
+.terry-div {
+    width: 500px;
+    background-image: url("Terry\'s\ Taco\ Joint.jpg");
+    background-size: cover;
+    min-height: 400px;
+    margin: 0 50px 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.terry-div h1 {
+    color: #f6da63;
+    font-family: Fendysa;
+    font-size: 50px;
+    text-shadow: black 1px 1px,
+                    black -1px -1px;
+    background-color: #da2d2d; 
+    padding: 10px;
+    background-blend-mode: luminosity;
+}
+.half {
+    background-color: #f6da63;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-shadow: #9d0b0b 1px 1px,
+                         #9d0b0b -1px -1px;
+    height: 200px;
+    width: 495px;
+    border-left: 5px solid #9d0b0b ;
+}
+.tacos-div {
+    position: relative;
+    bottom: 124px;
+    height: 200px;
+}
+.kombucha-div {
+    position: relative;
+    bottom: 250px;
+    left: 550px;
+}
+.half  h1 {
+    font-family: Fendysa;
+    font-size: 60px;
+    color: #da2d2d;
+    padding-right: 10px;
+}
+.half  h5 {
+    font-family: Fendysa;
+    font-size: 40px;
+    color: #da2d2d;
+}
+.container-two {
+    height: 200px;
+    opacity: 80%;
+    display: flex;
+    flex-direction: row;
+    margin: 300px 146px;
+}
+.quarter {
+    min-height: 200px;
+    width: 250px;
+    text-shadow: black 1px 1px,
+                    black -1px -1px;
+     font-family: Fendysa;
+     color: #f6da63;
+     border-radius: 40px;
+     background-color: #da2d2d;
+     display: inline-block;
+     text-align: center;
+     border: 3px solid #9d0b0b;
+}
+.quarter h1 {
+    font-size: 50px;
+}
+.quarter p {
+    font-size: 25px;
+}
+.margin {
+    margin-right: 20px;
+}
+.featured-div {
+    background-image: url('featured.jpg');
+    background-size: cover;
+    width: 954.666px;
+    height: 636.5px;
+    margin: auto;
+    padding: 80px 30px;
+    text-align: center;
+    font-family: Fendysa;
+}
+.featured-div h1 {
+    text-shadow: #eb8242 1px 1px,
+                    #eb8242 -1px -1px;
+    color: #da2d2d;
+    font-size: 60px;
+    background-color: #f6da63;
+    padding: 10px;
+    border-radius: 30px 0;
+    background-blend-mode: lighten;
+    opacity: 60%;
+    width: fit-content;
+    margin: auto;
+}
+.featured-div p {
+    text-shadow: #eb8242 1px 1px,
+                    #eb8242 -1px -1px;
+    color: #da2d2d;
+    font-size: 20px;
+    background-color: #f6da63;
+    padding: 10px;
+    border-radius: 30px 0;
+    background-blend-mode: lighten;
+    opacity: 60%;
+    width: fit-content;
+    margin: 20px auto;
+}
+.featured-div span {
+    padding: 20px;
+    background-color: #da2d2d;
+    border-radius: 20px 0;
+    border: 2px solid #9d0b0b;
+}
+.featured-div span a {
+    color: #f6da63;
+    text-decoration: none;
+    opacity: 70%;
+    font-size: 23px;
+}
